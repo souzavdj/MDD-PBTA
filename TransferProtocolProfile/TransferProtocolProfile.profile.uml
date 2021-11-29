@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cvq00EumEeyvyuPaJqzanw" name="TransferProtocolProfile">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm38UurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm3_kurEeyvyuPaJqzanw" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm3_0urEeyvyuPaJqzanw" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4AEurEeyvyuPaJqzanw" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4AUurEeyvyuPaJqzanw" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4AkurEeyvyuPaJqzanw" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4A0urEeyvyuPaJqzanw" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_0A0iIEvdEeydwa_iy5fI4w" name="TransferProtocolProfile" nsURI="http:///schemas/TransferProtocolProfile/_0Axe0EvdEeydwa_iy5fI4w/5" nsPrefix="TransferProtocolProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A0iIUvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/4.0.0/UML"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0BDysEvdEeydwa_iy5fI4w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BDysUvdEeydwa_iy5fI4w" key="Version" value="0.0.6"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BDyskvdEeydwa_iy5fI4w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BDys0vdEeydwa_iy5fI4w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BDytEvdEeydwa_iy5fI4w" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BDytUvdEeydwa_iy5fI4w" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A0iIkvdEeydwa_iy5fI4w" name="BeliefBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A0iI0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cm954EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A0iJEvdEeydwa_iy5fI4w" name="PlanBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A0iJUvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fb9KAEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A0iJkvdEeydwa_iy5fI4w" name="DesireBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A0iJ0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nSOisEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A0iKEvdEeydwa_iy5fI4w" name="IntentionBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A0iKUvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_YNrwMUvOEey4cYvqdCgV7Q" name="TransferProtocolProfile" nsURI="http:///schemas/TransferProtocolProfile/_YNrwMEvOEey4cYvqdCgV7Q/4" nsPrefix="TransferProtocolProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNrwMkvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.0.0/UML"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YN1hMEvOEey4cYvqdCgV7Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN1hMUvOEey4cYvqdCgV7Q" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN1hMkvOEey4cYvqdCgV7Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN1hM0vOEey4cYvqdCgV7Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN1hNEvOEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN1hNUvOEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNrwM0vOEey4cYvqdCgV7Q" name="BeliefBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNrwNEvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cm954EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNrwNUvOEey4cYvqdCgV7Q" name="PlanBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNrwNkvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fb9KAEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNrwN0vOEey4cYvqdCgV7Q" name="DesireBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNrwOEvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nSOisEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNrwOUvOEey4cYvqdCgV7Q" name="IntentionBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNrwOkvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_ppGbAEvKEey4cYvqdCgV7Q" name="TransferProtocolProfile" nsURI="http:///schemas/TransferProtocolProfile/_ppFz8EvKEey4cYvqdCgV7Q/3" nsPrefix="TransferProtocolProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppGbAUvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.0.0/UML"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppYH0EvKEey4cYvqdCgV7Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppYH0UvKEey4cYvqdCgV7Q" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppYH0kvKEey4cYvqdCgV7Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppYH00vKEey4cYvqdCgV7Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppYH1EvKEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppYH1UvKEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppGbAkvKEey4cYvqdCgV7Q" name="BeliefBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppGbA0vKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cm954EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppGbBEvKEey4cYvqdCgV7Q" name="PlanBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppGbBUvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fb9KAEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppGbBkvKEey4cYvqdCgV7Q" name="DesireBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppGbB0vKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nSOisEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppGbCEvKEey4cYvqdCgV7Q" name="IntentionBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppGbCUvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_w-MgoUvHEey4cYvqdCgV7Q" name="TransferProtocolProfile" nsURI="http:///schemas/TransferProtocolProfile/_w-MgoEvHEey4cYvqdCgV7Q/2" nsPrefix="TransferProtocolProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgokvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.0.0/UML"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MhCEvHEey4cYvqdCgV7Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MhCUvHEey4cYvqdCgV7Q" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MhCkvHEey4cYvqdCgV7Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MhC0vHEey4cYvqdCgV7Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MhDEvHEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MhDUvHEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-Mgo0vHEey4cYvqdCgV7Q" name="BeliefBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgpEvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cm954EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-MgpUvHEey4cYvqdCgV7Q" name="PlanBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgpkvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fb9KAEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-Mgp0vHEey4cYvqdCgV7Q" name="DesireBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgqEvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nSOisEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-MgqUvHEey4cYvqdCgV7Q" name="IntentionBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgqkvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_R26B4UuuEey4cYvqdCgV7Q" name="TransferProtocolProfile" nsURI="http:///schemas/TransferProtocolProfile/_R26B4EuuEey4cYvqdCgV7Q/1" nsPrefix="TransferProtocolProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B4kuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.0.0/UML"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R3Dy4EuuEey4cYvqdCgV7Q" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy4UuuEey4cYvqdCgV7Q" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy4kuuEey4cYvqdCgV7Q" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy40uuEey4cYvqdCgV7Q" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy5EuuEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy5UuuEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_R26B40uuEey4cYvqdCgV7Q" name="BeliefBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B5EuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cm954EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_R26B5UuuEey4cYvqdCgV7Q" name="PlanBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B5kuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fb9KAEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_R26B50uuEey4cYvqdCgV7Q" name="DesireBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B6EuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nSOisEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_R26B6UuuEey4cYvqdCgV7Q" name="IntentionBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B6kuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_lbm38kurEeyvyuPaJqzanw" name="TransferProtocolProfile" nsURI="http:///schemas/TransferProtocolProfile/_lbm38EurEeyvyuPaJqzanw/0" nsPrefix="TransferProtocolProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm380urEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/4.0.0/UML"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4I0urEeyvyuPaJqzanw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4JEurEeyvyuPaJqzanw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4JUurEeyvyuPaJqzanw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4JkurEeyvyuPaJqzanw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4J0urEeyvyuPaJqzanw" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4KEurEeyvyuPaJqzanw" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbm39EurEeyvyuPaJqzanw" name="BeliefBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm39UurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cm954EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbm39kurEeyvyuPaJqzanw" name="PlanBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm390urEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fb9KAEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbm3-EurEeyvyuPaJqzanw" name="DesireBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm3-UurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nSOisEuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbm3-kurEeyvyuPaJqzanw" name="IntentionBase">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm3-0urEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_c2EXwEumEeyvyuPaJqzanw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_c2EXwUumEeyvyuPaJqzanw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cm954EuoEeyvyuPaJqzanw" name="BeliefBase"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fb9KAEuoEeyvyuPaJqzanw" name="PlanBase"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nSOisEuoEeyvyuPaJqzanw" name="DesireBase"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qHOZ4EuoEeyvyuPaJqzanw" name="IntentionBase"/>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_u-VdUEupEeyvyuPaJqzanw" name="BDI Agents">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4BkurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_0A-TIEvdEeydwa_iy5fI4w" name="BDIAgents" nsURI="http://TransferProtocolProfile/schemas/BDIAgents/_0A5aoEvdEeydwa_iy5fI4w/5" nsPrefix="BDIAgents">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-TIUvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0A-TIkvdEeydwa_iy5fI4w" key="originalName" value="BDI Agents"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-TI0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/4.1.0/UML" references="_0A0iIEvdEeydwa_iy5fI4w"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0BFA00vdEeydwa_iy5fI4w" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BFA1EvdEeydwa_iy5fI4w" key="Version" value="0.0.6"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BFA1UvdEeydwa_iy5fI4w" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BFA1kvdEeydwa_iy5fI4w" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BFA10vdEeydwa_iy5fI4w" key="Date" value="2021-11-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0BFA2EvdEeydwa_iy5fI4w" key="Author" value="Vinicius Jesus"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_0A-TJEvdEeydwa_iy5fI4w" name="IllocutionaryForce">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-TJUvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8a8MYEupEeyvyuPaJqzanw"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_0A-TJkvdEeydwa_iy5fI4w" name="tell"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_0A-TJ0vdEeydwa_iy5fI4w" name="untell" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_0A-TKEvdEeydwa_iy5fI4w" name="achieve" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_0A-TKUvdEeydwa_iy5fI4w" name="unachieve" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_0A-TKkvdEeydwa_iy5fI4w" name="PerceptionsStatus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-TK0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_s3d1cEu_Eey4cYvqdCgV7Q"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_0A-TLEvdEeydwa_iy5fI4w" name="Open"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_0A-TLUvdEeydwa_iy5fI4w" name="Close" value="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A-TLkvdEeydwa_iy5fI4w" name="TraditionalAgent">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-TL0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OKUh8EvbEeydwa_iy5fI4w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0A-TMEvdEeydwa_iy5fI4w" key="originalName" value="Traditional Agent"/>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-TMUvdEeydwa_iy5fI4w" name="send" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-TMkvdEeydwa_iy5fI4w" name="receiver" ordered="false" lowerBound="1" eType="_0A-TLkvdEeydwa_iy5fI4w"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-TNEvdEeydwa_iy5fI4w" name="force" ordered="false" lowerBound="1" eType="_0A-TJEvdEeydwa_iy5fI4w"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-TNkvdEeydwa_iy5fI4w" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-TOEvdEeydwa_iy5fI4w" name="print" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-TOUvdEeydwa_iy5fI4w" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-TO0vdEeydwa_iy5fI4w" name="wait" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-TPEvdEeydwa_iy5fI4w" name="timeInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0A-TPkvdEeydwa_iy5fI4w" name="beliefs" ordered="false" lowerBound="1" eType="_0A0iIkvdEeydwa_iy5fI4w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0A-TQEvdEeydwa_iy5fI4w" name="desires" ordered="false" lowerBound="1" eType="_0A0iJkvdEeydwa_iy5fI4w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0A-TQkvdEeydwa_iy5fI4w" name="plans" ordered="false" lowerBound="1" eType="_0A0iJEvdEeydwa_iy5fI4w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0A-TREvdEeydwa_iy5fI4w" name="intentions" ordered="false" lowerBound="1" eType="_0A0iKEvdEeydwa_iy5fI4w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A-TRkvdEeydwa_iy5fI4w" name="Argo" eSuperTypes="_0A-TLkvdEeydwa_iy5fI4w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-TR0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_P8ChwEvcEeydwa_iy5fI4w"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-TSEvdEeydwa_iy5fI4w" name="port" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-TSUvdEeydwa_iy5fI4w" name="address" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-6MEvdEeydwa_iy5fI4w" name="percepts" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-6MUvdEeydwa_iy5fI4w" name="status" ordered="false" lowerBound="1" eType="_0A-TKkvdEeydwa_iy5fI4w"/>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-6M0vdEeydwa_iy5fI4w" name="limit" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-6NEvdEeydwa_iy5fI4w" name="interval" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-6NkvdEeydwa_iy5fI4w" name="act" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-6N0vdEeydwa_iy5fI4w" name="action" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_0A-6OkvdEeydwa_iy5fI4w" name="Communicator" eSuperTypes="_0A-TLkvdEeydwa_iy5fI4w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0A-6O0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_5qwbkEvcEeydwa_iy5fI4w"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_0A-6PEvdEeydwa_iy5fI4w" name="sendOut" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-6PUvdEeydwa_iy5fI4w" name="receiver" ordered="false" lowerBound="1" eType="_0A-6OkvdEeydwa_iy5fI4w"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-6P0vdEeydwa_iy5fI4w" name="force" ordered="false" lowerBound="1" eType="_0A-TJEvdEeydwa_iy5fI4w"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_0A-6QUvdEeydwa_iy5fI4w" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_YNwosEvOEey4cYvqdCgV7Q" name="BDIAgents" nsURI="http://TransferProtocolProfile/schemas/BDIAgents/_YNvakEvOEey4cYvqdCgV7Q/4" nsPrefix="BDIAgents">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwosUvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YNwoskvOEey4cYvqdCgV7Q" key="originalName" value="BDI Agents"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwos0vOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.1.0/UML" references="_YNrwMUvOEey4cYvqdCgV7Q"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YN4kgEvOEey4cYvqdCgV7Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN4kgUvOEey4cYvqdCgV7Q" key="Version" value="0.0.5"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN4kgkvOEey4cYvqdCgV7Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN4kg0vOEey4cYvqdCgV7Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN4khEvOEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YN4khUvOEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNwotEvOEey4cYvqdCgV7Q" name="TraditionalAgent">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwotUvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YNwotkvOEey4cYvqdCgV7Q" key="originalName" value="Traditional Agent"/>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwot0vOEey4cYvqdCgV7Q" name="send" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwouEvOEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_YNwotEvOEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwoukvOEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_YNwozEvOEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwovEvOEey4cYvqdCgV7Q" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwovkvOEey4cYvqdCgV7Q" name="print" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwov0vOEey4cYvqdCgV7Q" name="message" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwowUvOEey4cYvqdCgV7Q" name="wait" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwowkvOEey4cYvqdCgV7Q" name="timeInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YNwoxEvOEey4cYvqdCgV7Q" name="beliefs" ordered="false" lowerBound="1" eType="_YNrwM0vOEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YNwoxkvOEey4cYvqdCgV7Q" name="desires" ordered="false" lowerBound="1" eType="_YNrwN0vOEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YNwoyEvOEey4cYvqdCgV7Q" name="plans" ordered="false" lowerBound="1" eType="_YNrwNUvOEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_YNwoykvOEey4cYvqdCgV7Q" name="intentions" ordered="false" lowerBound="1" eType="_YNrwOUvOEey4cYvqdCgV7Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_YNwozEvOEey4cYvqdCgV7Q" name="IllocutionaryForce">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwozUvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8a8MYEupEeyvyuPaJqzanw"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_YNwozkvOEey4cYvqdCgV7Q" name="tell"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_YNwoz0vOEey4cYvqdCgV7Q" name="untell" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_YNwo0EvOEey4cYvqdCgV7Q" name="achieve" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_YNwo0UvOEey4cYvqdCgV7Q" name="unachieve" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNwo0kvOEey4cYvqdCgV7Q" name="Argo" eSuperTypes="_YNwotEvOEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwo00vOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwo1EvOEey4cYvqdCgV7Q" name="port" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo1UvOEey4cYvqdCgV7Q" name="address" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwo10vOEey4cYvqdCgV7Q" name="percepts" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo2EvOEey4cYvqdCgV7Q" name="status" ordered="false" lowerBound="1" eType="_YNwo4UvOEey4cYvqdCgV7Q"/>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwo2kvOEey4cYvqdCgV7Q" name="limit" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo20vOEey4cYvqdCgV7Q" name="intervalInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwo3UvOEey4cYvqdCgV7Q" name="act" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo3kvOEey4cYvqdCgV7Q" name="action" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_YNwo4UvOEey4cYvqdCgV7Q" name="PerceptionsStatus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwo4kvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_s3d1cEu_Eey4cYvqdCgV7Q"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_YNwo40vOEey4cYvqdCgV7Q" name="Open"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_YNwo5EvOEey4cYvqdCgV7Q" name="Close" value="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_YNwo5UvOEey4cYvqdCgV7Q" name="Communicator" eSuperTypes="_YNwotEvOEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNwo5kvOEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_YNwo50vOEey4cYvqdCgV7Q" name="sendOut" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo6EvOEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_YNwo5UvOEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo6kvOEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_YNwozEvOEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_YNwo7EvOEey4cYvqdCgV7Q" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_ppNIsEvKEey4cYvqdCgV7Q" name="BDIAgents" nsURI="http://TransferProtocolProfile/schemas/BDIAgents/_ppL6kEvKEey4cYvqdCgV7Q/3" nsPrefix="BDIAgents">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNIsUvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppNIskvKEey4cYvqdCgV7Q" key="originalName" value="BDI Agents"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNIs0vKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.1.0/UML" references="_ppGbAEvKEey4cYvqdCgV7Q"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppdAUEvKEey4cYvqdCgV7Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppdAUUvKEey4cYvqdCgV7Q" key="Version" value="0.0.4"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppdAUkvKEey4cYvqdCgV7Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppdAU0vKEey4cYvqdCgV7Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppdAVEvKEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppdAVUvKEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppNItEvKEey4cYvqdCgV7Q" name="TraditionalAgent" eSuperTypes="_ppNIxUvKEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNItUvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ppNItkvKEey4cYvqdCgV7Q" key="originalName" value="Traditional Agent"/>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNIt0vKEey4cYvqdCgV7Q" name="send" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNIuEvKEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_ppNItEvKEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNIukvKEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_ppNIz0vKEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNIvEvKEey4cYvqdCgV7Q" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNIvkvKEey4cYvqdCgV7Q" name="print" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNIv0vKEey4cYvqdCgV7Q" name="message" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNIwUvKEey4cYvqdCgV7Q" name="wait" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNIwkvKEey4cYvqdCgV7Q" name="timeInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppNIxUvKEey4cYvqdCgV7Q" name="Agent" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNIxkvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ppNIx0vKEey4cYvqdCgV7Q" name="beliefs" ordered="false" lowerBound="1" eType="_ppGbAkvKEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ppNIyUvKEey4cYvqdCgV7Q" name="desires" ordered="false" lowerBound="1" eType="_ppGbBkvKEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ppNIy0vKEey4cYvqdCgV7Q" name="intentions" ordered="false" lowerBound="1" eType="_ppGbCEvKEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ppNIzUvKEey4cYvqdCgV7Q" name="plans" ordered="false" lowerBound="1" eType="_ppGbBEvKEey4cYvqdCgV7Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_ppNIz0vKEey4cYvqdCgV7Q" name="IllocutionaryForce">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNI0EvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8a8MYEupEeyvyuPaJqzanw"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_ppNI0UvKEey4cYvqdCgV7Q" name="tell"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_ppNI0kvKEey4cYvqdCgV7Q" name="untell" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_ppNI00vKEey4cYvqdCgV7Q" name="achieve" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_ppNI1EvKEey4cYvqdCgV7Q" name="unachieve" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppNI1UvKEey4cYvqdCgV7Q" name="Argo" eSuperTypes="_ppNItEvKEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNI1kvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNI10vKEey4cYvqdCgV7Q" name="port" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI2EvKEey4cYvqdCgV7Q" name="address" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNI2kvKEey4cYvqdCgV7Q" name="percepts" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI20vKEey4cYvqdCgV7Q" name="status" ordered="false" lowerBound="1" eType="_ppNI5EvKEey4cYvqdCgV7Q"/>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNI3UvKEey4cYvqdCgV7Q" name="limit" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI3kvKEey4cYvqdCgV7Q" name="intervalInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNI4EvKEey4cYvqdCgV7Q" name="act" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI4UvKEey4cYvqdCgV7Q" name="action" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_ppNI5EvKEey4cYvqdCgV7Q" name="PerceptionsStatus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNI5UvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_s3d1cEu_Eey4cYvqdCgV7Q"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_ppNI5kvKEey4cYvqdCgV7Q" name="Open"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_ppNI50vKEey4cYvqdCgV7Q" name="Close" value="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ppNI6EvKEey4cYvqdCgV7Q" name="Communicator" eSuperTypes="_ppNItEvKEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ppNI6UvKEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_ppNI6kvKEey4cYvqdCgV7Q" name="sendOut" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI60vKEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_ppNI6EvKEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI7UvKEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_ppNIz0vKEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_ppNI70vKEey4cYvqdCgV7Q" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_w-MgrEvHEey4cYvqdCgV7Q" name="BDIAgents" nsURI="http://TransferProtocolProfile/schemas/BDIAgents/_w-Mgq0vHEey4cYvqdCgV7Q/2" nsPrefix="BDIAgents">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgrUvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MgrkvHEey4cYvqdCgV7Q" key="originalName" value="BDI Agents"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-Mgr0vHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.1.0/UML" references="_w-MgoUvHEey4cYvqdCgV7Q"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-WRpEvHEey4cYvqdCgV7Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-WRpUvHEey4cYvqdCgV7Q" key="Version" value="0.0.3"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-WRpkvHEey4cYvqdCgV7Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-WRp0vHEey4cYvqdCgV7Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-WRqEvHEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-WRqUvHEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-MgsEvHEey4cYvqdCgV7Q" name="TraditionalAgent" eSuperTypes="_w-MgwUvHEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgsUvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-MgskvHEey4cYvqdCgV7Q" key="originalName" value="Traditional Agent"/>
+          </eAnnotations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-Mgs0vHEey4cYvqdCgV7Q" name="send" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-MgtEvHEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_w-MgsEvHEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-MgtkvHEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_w-Mgy0vHEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-MguEvHEey4cYvqdCgV7Q" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-MgukvHEey4cYvqdCgV7Q" name="print" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mgu0vHEey4cYvqdCgV7Q" name="message" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-MgvUvHEey4cYvqdCgV7Q" name="wait" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-MgvkvHEey4cYvqdCgV7Q" name="timeInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-MgwUvHEey4cYvqdCgV7Q" name="Agent" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgwkvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_w-Mgw0vHEey4cYvqdCgV7Q" name="beliefs" ordered="false" lowerBound="1" eType="_w-Mgo0vHEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_w-MgxUvHEey4cYvqdCgV7Q" name="desires" ordered="false" lowerBound="1" eType="_w-Mgp0vHEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_w-Mgx0vHEey4cYvqdCgV7Q" name="intentions" ordered="false" lowerBound="1" eType="_w-MgqUvHEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_w-MgyUvHEey4cYvqdCgV7Q" name="plans" ordered="false" lowerBound="1" eType="_w-MgpUvHEey4cYvqdCgV7Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_w-Mgy0vHEey4cYvqdCgV7Q" name="IllocutionaryForce">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-MgzEvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8a8MYEupEeyvyuPaJqzanw"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_w-MgzUvHEey4cYvqdCgV7Q" name="tell"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_w-MgzkvHEey4cYvqdCgV7Q" name="untell" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_w-Mgz0vHEey4cYvqdCgV7Q" name="achieve" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_w-Mg0EvHEey4cYvqdCgV7Q" name="unachieve" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-Mg0UvHEey4cYvqdCgV7Q" name="Argo" eSuperTypes="_w-MgsEvHEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-Mg0kvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-Mg00vHEey4cYvqdCgV7Q" name="port" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg1EvHEey4cYvqdCgV7Q" name="address" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-Mg1kvHEey4cYvqdCgV7Q" name="percepts" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg10vHEey4cYvqdCgV7Q" name="status" ordered="false" lowerBound="1" eType="_w-Mg4EvHEey4cYvqdCgV7Q"/>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-Mg2UvHEey4cYvqdCgV7Q" name="limit" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg2kvHEey4cYvqdCgV7Q" name="intervalInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-Mg3EvHEey4cYvqdCgV7Q" name="act" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg3UvHEey4cYvqdCgV7Q" name="action" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_w-Mg4EvHEey4cYvqdCgV7Q" name="PerceptionsStatus">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-Mg4UvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_s3d1cEu_Eey4cYvqdCgV7Q"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_w-Mg4kvHEey4cYvqdCgV7Q" name="Open"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_w-Mg40vHEey4cYvqdCgV7Q" name="Close" value="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_w-Mg5EvHEey4cYvqdCgV7Q" name="Communicator" eSuperTypes="_w-MgsEvHEey4cYvqdCgV7Q">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-Mg5UvHEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_w-Mg5kvHEey4cYvqdCgV7Q" name="sendOut" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg50vHEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_w-Mg5EvHEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg6UvHEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_w-Mgy0vHEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_w-Mg60vHEey4cYvqdCgV7Q" name="content" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_R26B7kuuEey4cYvqdCgV7Q" name="BDIAgents" nsURI="http://TransferProtocolProfile/schemas/BDIAgents/_R26B7UuuEey4cYvqdCgV7Q/1" nsPrefix="BDIAgents">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B70uuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R26B8EuuEey4cYvqdCgV7Q" key="originalName" value="BDI Agents"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B8UuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/4.1.0/UML" references="_R26B4UuuEey4cYvqdCgV7Q"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R3Dy8EuuEey4cYvqdCgV7Q" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy8UuuEey4cYvqdCgV7Q" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy8kuuEey4cYvqdCgV7Q" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy80uuEey4cYvqdCgV7Q" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy9EuuEey4cYvqdCgV7Q" key="Date" value="2021-11-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R3Dy9UuuEey4cYvqdCgV7Q" key="Author" value="Vinicius Jesus"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_R26B8kuuEey4cYvqdCgV7Q" name="Agent" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26B80uuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_R26B9EuuEey4cYvqdCgV7Q" name="send" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_R26B9UuuEey4cYvqdCgV7Q" name="receiver" ordered="false" lowerBound="1" eType="_R26B8kuuEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_R26B90uuEey4cYvqdCgV7Q" name="force" ordered="false" lowerBound="1" eType="_R26CCUuuEey4cYvqdCgV7Q"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_R26B-UuuEey4cYvqdCgV7Q" name="message" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_R26B-0uuEey4cYvqdCgV7Q" name="print" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_R26B_EuuEey4cYvqdCgV7Q" name="message" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_R26B_kuuEey4cYvqdCgV7Q" name="wait" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_R26B_0uuEey4cYvqdCgV7Q" name="timeInMillis" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+            </eParameters>
+          </eOperations>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_R26CAUuuEey4cYvqdCgV7Q" name="beliefs" ordered="false" lowerBound="1" eType="_R26B40uuEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_R26CA0uuEey4cYvqdCgV7Q" name="desires" ordered="false" lowerBound="1" eType="_R26B50uuEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_R26CBUuuEey4cYvqdCgV7Q" name="intentions" ordered="false" lowerBound="1" eType="_R26B6UuuEey4cYvqdCgV7Q"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_R26CB0uuEey4cYvqdCgV7Q" name="plans" ordered="false" lowerBound="1" eType="_R26B5UuuEey4cYvqdCgV7Q"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_R26CCUuuEey4cYvqdCgV7Q" name="ElocutionaryForce">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R26CCkuuEey4cYvqdCgV7Q" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8a8MYEupEeyvyuPaJqzanw"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_R26CC0uuEey4cYvqdCgV7Q" name="tell"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_R26CDEuuEey4cYvqdCgV7Q" name="untell" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_R26CDUuuEey4cYvqdCgV7Q" name="achieve" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_R26CDkuuEey4cYvqdCgV7Q" name="unachieve" value="3"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_lbm4B0urEeyvyuPaJqzanw" name="BDIAgents" nsURI="http://TransferProtocolProfile/schemas/BDIAgents/_lbm4BUurEeyvyuPaJqzanw/0" nsPrefix="BDIAgents">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4CEurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4CUurEeyvyuPaJqzanw" key="originalName" value="BDI Agents"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4CkurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/4.1.0/UML" references="_lbm38kurEeyvyuPaJqzanw"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4M0urEeyvyuPaJqzanw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4NEurEeyvyuPaJqzanw" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4NUurEeyvyuPaJqzanw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4NkurEeyvyuPaJqzanw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4N0urEeyvyuPaJqzanw" key="Date" value="2021-11-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lbm4OEurEeyvyuPaJqzanw" key="Author" value="Vinicius Jesus"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_lbm4C0urEeyvyuPaJqzanw" name="Agent" abstract="true">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4DEurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_lbm4DUurEeyvyuPaJqzanw" name="send" ordered="false" lowerBound="1">
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_lbm4DkurEeyvyuPaJqzanw" name="receiver" ordered="false" lowerBound="1" eType="_lbm4C0urEeyvyuPaJqzanw"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_lbm4EEurEeyvyuPaJqzanw" name="force" ordered="false" lowerBound="1" eType="_lbm4HUurEeyvyuPaJqzanw"/>
+            <eParameters xmi:type="ecore:EParameter" xmi:id="_lbm4EkurEeyvyuPaJqzanw" name="message" ordered="false" lowerBound="1">
+              <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+            </eParameters>
+          </eOperations>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_lbm4FEurEeyvyuPaJqzanw" name="print" ordered="false" lowerBound="1"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbm4FUurEeyvyuPaJqzanw" name="beliefs" ordered="false" lowerBound="1" eType="_lbm39EurEeyvyuPaJqzanw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbm4F0urEeyvyuPaJqzanw" name="desires" ordered="false" lowerBound="1" eType="_lbm3-EurEeyvyuPaJqzanw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbm4GUurEeyvyuPaJqzanw" name="intentions" ordered="false" lowerBound="1" eType="_lbm3-kurEeyvyuPaJqzanw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lbm4G0urEeyvyuPaJqzanw" name="plans" ordered="false" lowerBound="1" eType="_lbm39kurEeyvyuPaJqzanw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_lbm4HUurEeyvyuPaJqzanw" name="ElocutionaryForce">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lbm4HkurEeyvyuPaJqzanw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8a8MYEupEeyvyuPaJqzanw"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_lbm4H0urEeyvyuPaJqzanw" name="tell"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_lbm4IEurEeyvyuPaJqzanw" name="untell" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_lbm4IUurEeyvyuPaJqzanw" name="achieve" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_lbm4IkurEeyvyuPaJqzanw" name="unachieve" value="3"/>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_8a8MYEupEeyvyuPaJqzanw" name="IllocutionaryForce" visibility="package">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_K4R_sEuqEeyvyuPaJqzanw" name="tell"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_N5IhkEuqEeyvyuPaJqzanw" name="untell"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PmFLkEuqEeyvyuPaJqzanw" name="achieve"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_R8V4UEuqEeyvyuPaJqzanw" name="unachieve"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_s3d1cEu_Eey4cYvqdCgV7Q" name="PerceptionsStatus">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_5G_GUEu_Eey4cYvqdCgV7Q" name="Open"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_7xm5gEu_Eey4cYvqdCgV7Q" name="Close"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_OKUh8EvbEeydwa_iy5fI4w" name="Traditional Agent">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ZqbvIEvbEeydwa_iy5fI4w" name="beliefs" type="_cm954EuoEeyvyuPaJqzanw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_fV7SUEvbEeydwa_iy5fI4w" name="desires" type="_nSOisEuoEeyvyuPaJqzanw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_irSroEvbEeydwa_iy5fI4w" name="plans" type="_fb9KAEuoEeyvyuPaJqzanw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_lqeZkEvbEeydwa_iy5fI4w" name="intentions" type="_qHOZ4EuoEeyvyuPaJqzanw"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1rtokEvbEeydwa_iy5fI4w" name="send">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_1rtokUvbEeydwa_iy5fI4w" name="receiver" type="_OKUh8EvbEeydwa_iy5fI4w"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_1rtokkvbEeydwa_iy5fI4w" name="force" type="_8a8MYEupEeyvyuPaJqzanw"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_1rtok0vbEeydwa_iy5fI4w" name="content">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7sW8YEvbEeydwa_iy5fI4w" name="print">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7sW8YUvbEeydwa_iy5fI4w" name="content">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BwisYEvcEeydwa_iy5fI4w" name="wait">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_BwisYUvcEeydwa_iy5fI4w" name="timeInMillis">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_P8ChwEvcEeydwa_iy5fI4w" name="Argo">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3ABToEvcEeydwa_iy5fI4w" general="_OKUh8EvbEeydwa_iy5fI4w"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_e5XcsEvcEeydwa_iy5fI4w" name="port">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_e5YDwEvcEeydwa_iy5fI4w" name="address">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_l952cEvcEeydwa_iy5fI4w" name="percepts">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_l952cUvcEeydwa_iy5fI4w" name="status" type="_s3d1cEu_Eey4cYvqdCgV7Q"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_sv_1UEvcEeydwa_iy5fI4w" name="limit">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sv_1UUvcEeydwa_iy5fI4w" name="interval">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ybRWEEvcEeydwa_iy5fI4w" name="act">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ybRWEUvcEeydwa_iy5fI4w" name="action">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_5qwbkEvcEeydwa_iy5fI4w" name="Communicator">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Q4qFkEvdEeydwa_iy5fI4w" general="_OKUh8EvbEeydwa_iy5fI4w"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JJjE0EvdEeydwa_iy5fI4w" name="sendOut">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JJjE0UvdEeydwa_iy5fI4w" name="receiver" type="_5qwbkEvcEeydwa_iy5fI4w"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JJjE0kvdEeydwa_iy5fI4w" name="force" type="_8a8MYEupEeyvyuPaJqzanw"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JJjE00vdEeydwa_iy5fI4w" name="content">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_v2L7cEviEeyGg5Q5t60lqQ" name="EcologicalRelation">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_v2L7cUviEeyGg5Q5t60lqQ" name="Inquilinism"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_v2L7ckviEeyGg5Q5t60lqQ" name="Mutualism"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_v2L7c0viEeyGg5Q5t60lqQ" name="Predation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_v2Pl0EviEeyGg5Q5t60lqQ" name="CommunicatorTransferProtocol">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6c2YIEviEeyGg5Q5t60lqQ" general="_5qwbkEvcEeydwa_iy5fI4w"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_v2Pl0UviEeyGg5Q5t60lqQ" name="sendOut">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2Pl0kviEeyGg5Q5t60lqQ" name="receiver" type="_v2Pl0EviEeyGg5Q5t60lqQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2Pl00viEeyGg5Q5t60lqQ" name="force" type="_8a8MYEupEeyvyuPaJqzanw"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2Pl1EviEeyGg5Q5t60lqQ" name="content">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_v2Pl1UviEeyGg5Q5t60lqQ" name="moveOut">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2Pl1kviEeyGg5Q5t60lqQ" name="receiver" type="_v2Pl0EviEeyGg5Q5t60lqQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2Pl10viEeyGg5Q5t60lqQ" name="relation" type="_v2L7cEviEeyGg5Q5t60lqQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v2Pl2EviEeyGg5Q5t60lqQ" name="content">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>
