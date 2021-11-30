@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0hFTYEvZEeydwa_iy5fI4w" name="Aplication">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_30PJYEvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zniqAEveEeyGg5Q5t60lqQ" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zniqAUveEeyGg5Q5t60lqQ" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zniqAkveEeyGg5Q5t60lqQ" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zniqA0veEeyGg5Q5t60lqQ" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zniqBEveEeyGg5Q5t60lqQ" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zniqBUveEeyGg5Q5t60lqQ" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_qZXbcVGKEeyTMprETb1jpA" name="Aplication" nsURI="http:///schemas/Aplication/_qZXbcFGKEeyTMprETb1jpA/4" nsPrefix="Aplication">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qZXbclGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_WGHeUVGCEeyTMprETb1jpA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qZXbiVGKEeyTMprETb1jpA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qZXbilGKEeyTMprETb1jpA" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qZXbi1GKEeyTMprETb1jpA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qZXbjFGKEeyTMprETb1jpA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qZXbjVGKEeyTMprETb1jpA" key="Date" value="2021-11-30"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qZXbjlGKEeyTMprETb1jpA" key="Author" value="ViniciusJesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_qZXbc1GKEeyTMprETb1jpA" name="SMA_Sender">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qZXbdFGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__hfFwEvZEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_qZXbdVGKEeyTMprETb1jpA" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeYVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_qZXbd1GKEeyTMprETb1jpA" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeeVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_qZXbeVGKEeyTMprETb1jpA" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHes1GCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_qZXbe1GKEeyTMprETb1jpA" name="SMA_Receiver">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qZXbfFGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Cj_0gEvaEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_qZXbfVGKEeyTMprETb1jpA" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeeVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_qZXbf1GKEeyTMprETb1jpA" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeYVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_qZXbgVGKEeyTMprETb1jpA" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHes1GCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_nm9lQVGKEeyTMprETb1jpA" name="Aplication" nsURI="http:///schemas/Aplication/_nm9lQFGKEeyTMprETb1jpA/3" nsPrefix="Aplication">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nm9lQlGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_WGHeUVGCEeyTMprETb1jpA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nm9lWVGKEeyTMprETb1jpA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nm9lWlGKEeyTMprETb1jpA" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nm9lW1GKEeyTMprETb1jpA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nm9lXFGKEeyTMprETb1jpA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nm9lXVGKEeyTMprETb1jpA" key="Date" value="2021-11-30"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nm9lXlGKEeyTMprETb1jpA" key="Author" value="ViniciusJesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_nm9lQ1GKEeyTMprETb1jpA" name="SMA_Sender">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nm9lRFGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__hfFwEvZEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_nm9lRVGKEeyTMprETb1jpA" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeYVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_nm9lR1GKEeyTMprETb1jpA" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeeVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_nm9lSVGKEeyTMprETb1jpA" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHes1GCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_nm9lS1GKEeyTMprETb1jpA" name="SMA_Receiver">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nm9lTFGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Cj_0gEvaEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_nm9lTVGKEeyTMprETb1jpA" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeeVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_nm9lT1GKEeyTMprETb1jpA" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHeYVGCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_nm9lUVGKEeyTMprETb1jpA" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_WGHes1GCEeyTMprETb1jpA"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_aFCZgVFXEeyTMprETb1jpA" name="Aplication" nsURI="http:///schemas/Aplication/_aFCZgFFXEeyTMprETb1jpA/2" nsPrefix="Aplication">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aFCZglFXEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_0A-TIEvdEeydwa_iy5fI4w"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aFE1xFFXEeyTMprETb1jpA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aFE1xVFXEeyTMprETb1jpA" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aFE1xlFXEeyTMprETb1jpA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aFE1x1FXEeyTMprETb1jpA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aFE1yFFXEeyTMprETb1jpA" key="Date" value="2021-11-29"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aFE1yVFXEeyTMprETb1jpA" key="Author" value="ViniciusJesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aFCZg1FXEeyTMprETb1jpA" name="SMA_Sender">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aFCZhFFXEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__hfFwEvZEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aFCZhVFXEeyTMprETb1jpA" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TLkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aFCZh1FXEeyTMprETb1jpA" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TRkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aFCZiVFXEeyTMprETb1jpA" name="SMA_Receiver">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aFCZilFXEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Cj_0gEvaEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aFCZi1FXEeyTMprETb1jpA" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TRkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aFCZjVFXEeyTMprETb1jpA" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TLkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_STDNsEviEeyGg5Q5t60lqQ" name="Aplication" nsURI="http:///schemas/Aplication/_SS-8QEviEeyGg5Q5t60lqQ/1" nsPrefix="Aplication">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_STDNsUviEeyGg5Q5t60lqQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_0A-TIEvdEeydwa_iy5fI4w"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_STFC4UviEeyGg5Q5t60lqQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_STFC4kviEeyGg5Q5t60lqQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_STFC40viEeyGg5Q5t60lqQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_STFC5EviEeyGg5Q5t60lqQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_STFC5UviEeyGg5Q5t60lqQ" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_STFC5kviEeyGg5Q5t60lqQ" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_STDNskviEeyGg5Q5t60lqQ" name="SMA_Sender">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_STDNs0viEeyGg5Q5t60lqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__hfFwEvZEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_STDNtEviEeyGg5Q5t60lqQ" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TLkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_STDNtkviEeyGg5Q5t60lqQ" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TRkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_STDNuEviEeyGg5Q5t60lqQ" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-6OkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_STDNukviEeyGg5Q5t60lqQ" name="SMA_Receiver">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_STDNu0viEeyGg5Q5t60lqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Cj_0gEvaEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_STDNvEviEeyGg5Q5t60lqQ" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TRkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_STDNvkviEeyGg5Q5t60lqQ" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-TLkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_STDNwEviEeyGg5Q5t60lqQ" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_0A-6OkvdEeydwa_iy5fI4w"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_30PwcEvdEeydwa_iy5fI4w" name="Aplication" nsURI="http:///schemas/Aplication/_30OiUEvdEeydwa_iy5fI4w/0" nsPrefix="Aplication">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_30PwcUvdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_YNwosEvOEey4cYvqdCgV7Q"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_30Q-k0vdEeydwa_iy5fI4w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_30Q-lEvdEeydwa_iy5fI4w" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_30Q-lUvdEeydwa_iy5fI4w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_30Q-lkvdEeydwa_iy5fI4w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_30Q-l0vdEeydwa_iy5fI4w" key="Date" value="2021-11-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_30Q-mEvdEeydwa_iy5fI4w" key="Author" value="Vinicius Jesus"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_30PwckvdEeydwa_iy5fI4w" name="SMA_Sender">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_30Pwc0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__hfFwEvZEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_30PwdEvdEeydwa_iy5fI4w" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_YNwotEvOEey4cYvqdCgV7Q"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_30PwdkvdEeydwa_iy5fI4w" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_YNwo0kvOEey4cYvqdCgV7Q"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_30PweEvdEeydwa_iy5fI4w" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_YNwo5UvOEey4cYvqdCgV7Q"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_30PwekvdEeydwa_iy5fI4w" name="SMA_Receiver">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_30Pwe0vdEeydwa_iy5fI4w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Cj_0gEvaEeydwa_iy5fI4w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_30PwfEvdEeydwa_iy5fI4w" name="agent1" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_YNwo0kvOEey4cYvqdCgV7Q"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_30PwfkvdEeydwa_iy5fI4w" name="agent2" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_YNwotEvOEey4cYvqdCgV7Q"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_30PwgEvdEeydwa_iy5fI4w" name="agent3" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="TransferProtocolProfile.profile.uml#_YNwo5UvOEey4cYvqdCgV7Q"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0wN7kEvZEeydwa_iy5fI4w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0wOioEvZEeydwa_iy5fI4w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="__hfFwEvZEeydwa_iy5fI4w" name="SMA_Sender">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_NeGxoEvaEeydwa_iy5fI4w" name="agent1">
+      <type xmi:type="uml:Stereotype" href="TransferProtocolProfile.profile.uml#_OKUh8EvbEeydwa_iy5fI4w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_ePGpoEvaEeydwa_iy5fI4w" name="agent2">
+      <type xmi:type="uml:Stereotype" href="TransferProtocolProfile.profile.uml#_P8ChwEvcEeydwa_iy5fI4w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_f6r-QFFXEeyTMprETb1jpA" name="agent3">
+      <type xmi:type="uml:Stereotype" href="TransferProtocolProfile.profile.uml#_v2Pl0EviEeyGg5Q5t60lqQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Cj_0gEvaEeydwa_iy5fI4w" name="SMA_Receiver" visibility="package">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_o-chMEvaEeydwa_iy5fI4w" name="agent1">
+      <type xmi:type="uml:Stereotype" href="TransferProtocolProfile.profile.uml#_P8ChwEvcEeydwa_iy5fI4w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_vl4vQEvaEeydwa_iy5fI4w" name="agent2">
+      <type xmi:type="uml:Stereotype" href="TransferProtocolProfile.profile.uml#_OKUh8EvbEeydwa_iy5fI4w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_jp0icFFXEeyTMprETb1jpA" name="agent3">
+      <type xmi:type="uml:Stereotype" href="TransferProtocolProfile.profile.uml#_v2Pl0EviEeyGg5Q5t60lqQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1FGJ8EvaEeydwa_iy5fI4w" name="AnyProtocolActivated" memberEnd="_1FJ0UUvaEeydwa_iy5fI4w _1FLCcEvaEeydwa_iy5fI4w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1FJNQEvaEeydwa_iy5fI4w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1FJ0UEvaEeydwa_iy5fI4w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1FLCcEvaEeydwa_iy5fI4w" name="sma_sender" type="__hfFwEvZEeydwa_iy5fI4w" association="_1FGJ8EvaEeydwa_iy5fI4w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1FJ0UUvaEeydwa_iy5fI4w" name="sma_receiver" type="_Cj_0gEvaEeydwa_iy5fI4w" association="_1FGJ8EvaEeydwa_iy5fI4w"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_h9cYAFGKEeyTMprETb1jpA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h9cYAVGKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_WGCl0VGCEeyTMprETb1jpA"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="TransferProtocolProfile.profile.uml#_cvq00EumEeyvyuPaJqzanw"/>
+  </profileApplication>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_h9cYAlGKEeyTMprETb1jpA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h9cYA1GKEeyTMprETb1jpA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="TransferProtocolProfile.profile.uml#_WGHeUVGCEeyTMprETb1jpA"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="TransferProtocolProfile.profile.uml#_u-VdUEupEeyvyuPaJqzanw"/>
+  </profileApplication>
+</uml:Profile>
