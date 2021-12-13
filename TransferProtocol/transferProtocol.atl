@@ -1,0 +1,56 @@
+module transferProtocol;
+
+-- @path agents=/TransferProtocol/TransferProtocolModel.ecore
+-- @path mas=/TransferProtocol/MASs.ecore
+
+create OUT: MASs from IN: TransferProtocolModel;
+
+helper context TransferProtocolModel!TraditionalAgent def: hasExternalCommunication(): Boolean =
+	if not self.communicateWithExternalEnvironment.oclIsUndefined() then
+		true
+	else
+		false
+	endif;
+
+helper context TransferProtocolModel!TraditionalAgent def: typeName: String =
+	if not self.typeName.oclIsUndefined() then
+		self.typeName
+	else
+		self.name
+	endif;
+
+rule TraditionalAgent2ClosedMAS {
+	from
+		s: TransferProtocolModel!TraditionalAgent (not s.hasExternalCommunication())
+	to
+		t: MASs!ClosedMAS (
+			fullName <- s.name + ' ' + s.typeName
+		)
+}
+
+rule Argo2ClosedMAS {
+	from
+		s: TransferProtocolModel!Argo (not s.hasExternalCommunication())
+	to
+		t: MASs!ClosedMAS (
+			fullName <- s.name + ' ' + s.typeName
+		)
+}
+
+rule Communicator2OpenMAS {
+	from
+		s: TransferProtocolModel!Communicator (s.hasExternalCommunication())
+	to
+		t: MASs!OpenMAS (
+			fullName <- s.name + ' ' + s.typeName
+		)
+}
+
+rule CommunicatorTransferProtocol2OpenMAS {
+	from
+		s: TransferProtocolModel!CommunicatorTransferProtocol (s.hasExternalCommunication())
+	to
+		t: MASs!OpenMAS (
+			fullName <- s.name + ' ' + s.typeName
+		)
+}

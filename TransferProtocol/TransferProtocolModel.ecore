@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="BDI Agents">
+  <eClassifiers xsi:type="ecore:EClass" name="TraditionalAgent">
+    <eOperations name="print">
+      <eParameters name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eOperations name="send">
+      <eParameters name="receiver" eType="#//TraditionalAgent"/>
+      <eParameters name="force" eType="#//IllocutionaryForce"/>
+      <eParameters name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eOperations name="wait">
+      <eParameters name="timeInMillis" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="beliefs" lowerBound="1"
+        eType="#//BeliefBase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="desires" lowerBound="1"
+        eType="#//DesireBase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="intentions" lowerBound="1"
+        eType="#//IntentionBase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="plans" lowerBound="1" eType="#//PlanBase"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BeliefBase" instanceTypeName="beliefs">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="belief">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PlanBase" instanceTypeName="plans">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="plans">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DesireBase" instanceTypeName="desires">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="desires">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IntentionBase" instanceTypeName="intentions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="intentions">
+      <eGenericType eClassifier="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EEList">
+        <eTypeArguments/>
+      </eGenericType>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="IllocutionaryForce" instanceTypeName="force">
+    <eLiterals name="tell"/>
+    <eLiterals name="unTell" value="1"/>
+    <eLiterals name="achieve" value="2"/>
+    <eLiterals name="unAchieve" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="PerceptionsStatus" instanceTypeName="perceptionStatus">
+    <eLiterals name="Open"/>
+    <eLiterals name="Close" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="EcologicalRelation" instanceTypeName="relation">
+    <eLiterals name="Inquilinism"/>
+    <eLiterals name="Predation" value="1"/>
+    <eLiterals name="Mutualism" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Communicator" eSuperTypes="#//TraditionalAgent">
+    <eOperations name="sendOut">
+      <eParameters name="receiver" eType="#//Communicator"/>
+      <eParameters name="force" eType="#//IllocutionaryForce"/>
+      <eParameters name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="communicateWithExternalEnvironment"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Argo" eSuperTypes="#//TraditionalAgent">
+    <eOperations name="port">
+      <eParameters name="address" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eOperations name="percepts">
+      <eParameters name="status" eType="#//PerceptionsStatus"/>
+    </eOperations>
+    <eOperations name="limit">
+      <eParameters name="interval" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eOperations>
+    <eOperations name="act">
+      <eParameters name="action" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CommunicatorTransferProtocol" eSuperTypes="#//Communicator">
+    <eOperations name="moveOut">
+      <eParameters name="receiver" eType="#//CommunicatorTransferProtocol"/>
+      <eParameters name="relation" eType="#//EcologicalRelation"/>
+      <eParameters name="agents" ordered="false" eType="#//TraditionalAgent"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dominanceDegree" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="survivalInstincts" lowerBound="1"
+        eType="#//BeliefBase"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="communicateWithExternalEnvironment"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+</ecore:EPackage>

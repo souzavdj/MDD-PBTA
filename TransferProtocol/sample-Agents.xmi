@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="TransferProtocolModel">
+	<TraditionalAgent name="Tradicional">
+	</TraditionalAgent>
+	<Argo name="Argo">
+		<Argo typeName="Agente Fisico"/>
+	</Argo>
+	<Communicator name="Comunicador">
+		<Communicator typeName="Comunicador com outros MAS"/>
+	</Communicator>
+	<CommunicatorTransferProtocol name="Transfer">
+		<CommunicatorTransferProtocol typeName="Transportador com outros MAS"/>
+	</CommunicatorTransferProtocol>
+</xmi:XMI>
